@@ -10,12 +10,11 @@ export class HeroComponent {
   constructor(private http: HttpClient) {}
 
   downloadFile() {
-    const url =
-      ' https://drive.google.com/file/d/1BVYc-XCXiso80mno8p0gF45lkm38tUvM/view?usp=share_link'; // Replace with your file URL
+    const url = '/assets/Resume.pdf';
     this.http.get(url, { responseType: 'blob' }).subscribe((blob) => {
       const link = document.createElement('a');
       link.href = URL.createObjectURL(blob);
-      link.download = "Ansh's_Resume.pdf"; // Replace with your file name
+      link.download = "Ansh's_Resume.pdf";
       link.click();
     });
   }
