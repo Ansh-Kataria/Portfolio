@@ -1,0 +1,17 @@
+.about {
+  color: white;
+  text-align: center;
+  /* padding: 28px 180px; */
+}
+
+.about-contacts {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    padding: 40px 0;
+}
+
+.contact-card {
+    text-align: center;
+}
