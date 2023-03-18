@@ -4,14 +4,40 @@
   /* padding: 28px 180px; */
 }
 
-.about-contacts {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+.about h1 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 62px;
+  text-align: center;
+}
 
-    padding: 40px 0;
+.about p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+}
+
+.about-contacts {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  padding: 40px 0;
 }
 
 .contact-card {
-    text-align: center;
+  text-align: center;
+}
+
+.card-heading {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+}
+
+.card-desc {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
 }
