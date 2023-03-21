@@ -8,3 +8,9 @@
   line-height: 62px;
   text-align: center;
 }
+
+.work-container{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
