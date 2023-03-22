@@ -1,5 +1,5 @@
 .work {
-    color: white;
+  color: white;
 }
 
 .work h1 {
@@ -9,8 +9,12 @@
   text-align: center;
 }
 
-.work-container{
+.work-container {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+}
+
+.work-container:nth-child(2) {
+  color: lightgray;
 }
