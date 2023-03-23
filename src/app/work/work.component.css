@@ -11,10 +11,20 @@
 
 .work-container {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
 }
 
-.work-container:nth-child(2) {
-  color: lightgray;
+.work-component {
+  background: #212121;
+
+  padding: 36px 70px 36px 50px;
+}
+
+.work-component p {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 47px;
+
+  color: #535353;
 }
