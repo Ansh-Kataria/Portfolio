@@ -1,7 +1,7 @@
 .about {
   color: white;
   text-align: center;
-  /* padding: 28px 180px; */
+  padding: 20px 40px;
 }
 
 .about h1 {
@@ -9,6 +9,7 @@
   font-size: 48px;
   line-height: 62px;
   text-align: center;
+  padding: 24px;
 }
 
 .about p {
@@ -16,6 +17,7 @@
   font-size: 18px;
   line-height: 23px;
   text-align: center;
+  padding-bottom: 20px;
 }
 
 .about-contacts {
